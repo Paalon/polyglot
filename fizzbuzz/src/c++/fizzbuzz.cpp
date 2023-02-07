@@ -4,7 +4,7 @@ using std::cout, std::endl;
 
 int main() {
     for (auto n = 1; n <= 50; n++) {
-        if (n % 15 == 0) {
+        if (n % 3 == 0 && n % 5 == 0) {
             cout << "fizz buzz" << endl;
         } else if (n % 3 == 0) {
             cout << "fizz" << endl;
