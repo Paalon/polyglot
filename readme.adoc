@@ -10,7 +10,7 @@
 | C | | ✓ | ✓ |
 | Crystal | | | ✓ |
 | D | | ✓ | ✓ | ✓
-| Fish | | | ✓ |
+| Fish | | ✓ | ✓ |
 | Fortran | | ✓ | ✓ |
 | Go | | ✓ | ✓ | ✓
 | Java | | ✓ | ✓ | ✓
@@ -30,6 +30,7 @@
 | Rust | | ✓ | ✓ | ✓
 | Scala | | ✓| ✓ |
 | Scheme | | ✓ | ✓ |
+| Shell | | ✓ | ✓ |
 | Swift | | ✓ | ✓ | ✓
 | Vala | | | ✓ |
 | Zig | | ✓ | ✓ |
