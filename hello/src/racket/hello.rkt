@@ -1,4 +1,3 @@
 #lang racket
 
-(display "Hello!")
-(newline)
+(displayln "Hello!")

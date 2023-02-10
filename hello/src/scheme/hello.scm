@@ -1,2 +1,3 @@
 (import (scheme base) (scheme write))
-(display "Hello!\n")
+(display "Hello!")
+(newline)
