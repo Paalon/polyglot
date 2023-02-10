@@ -30,7 +30,7 @@
 | Ruby | | ✓ | ✓ | ✓ | ✓
 | Rust | | ✓ | ✓ | ✓ | ✓
 | Scala | | ✓| ✓ | |
-| Scheme | | ✓ | ✓ | |
+| Scheme | | ✓ | ✓ | | ✓
 | Shell | | ✓ | ✓ | |
 | Swift | | ✓ | ✓ | ✓ | ✓
 | Vala | | | ✓ | |
