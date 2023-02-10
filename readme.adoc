@@ -1,37 +1,37 @@
 = Polyglot
 
-[cols="<h,<d,<d,<d,<d"]
+[cols="<h,<d,<d,<d,<d,<d"]
 |===
-| Language | array | fizzbuzz | hello | struct
+| Language | array | fizzbuzz | hello | struct | utf8
 
-| Ada | | ✓ | ✓ | ✓
-| C# | | ✓ | ✓ |
-| C++ | | ✓ | ✓ | ✓
-| C | | ✓ | ✓ |
-| Crystal | | | ✓ |
-| D | | ✓ | ✓ | ✓
-| Fish | | ✓ | ✓ |
-| Fortran | | ✓ | ✓ |
-| Go | | ✓ | ✓ | ✓
-| Java | | ✓ | ✓ | ✓
-| JavaScript | | ✓| ✓ | ✓
-| Julia | | ✓ | ✓ | ✓
-| Kotlin | | ✓ | ✓ | ✓
-| Lua | | ✓ | ✓ |
-| M4 | | | ✓ |
-| Nim | | ✓ | ✓ | ✓
-| Nu | | | ✓ |
-| Pascal | | ✓ | ✓ |
-| Perl | | ✓ | ✓ |
-| PHP | | | ✓ |
-| PowerShell | | | ✓ |
-| Python | | ✓ | ✓ | ✓
-| Ruby | | ✓ | ✓ | ✓
-| Rust | | ✓ | ✓ | ✓
-| Scala | | ✓| ✓ |
-| Scheme | | ✓ | ✓ |
-| Shell | | ✓ | ✓ |
-| Swift | | ✓ | ✓ | ✓
-| Vala | | | ✓ |
-| Zig | | ✓ | ✓ |
+| Ada | | ✓ | ✓ | ✓ |
+| C# | | ✓ | ✓ | |
+| C++ | | ✓ | ✓ | ✓ |
+| C | | ✓ | ✓ | |
+| Crystal | | | ✓ | |
+| D | | ✓ | ✓ | ✓ | ✓
+| Fish | | ✓ | ✓ | |
+| Fortran | | ✓ | ✓ | |
+| Go | | ✓ | ✓ | ✓ | ✓
+| Java | | ✓ | ✓ | ✓ |
+| JavaScript | | ✓| ✓ | ✓ |
+| Julia | | ✓ | ✓ | ✓ | ✓
+| Kotlin | | ✓ | ✓ | ✓ |
+| Lua | | ✓ | ✓ | |
+| M4 | | | ✓ | |
+| Nim | | ✓ | ✓ | ✓ | ✓
+| Nu | | | ✓ | |
+| Pascal | | ✓ | ✓ | |
+| Perl | | ✓ | ✓ | |
+| PHP | | | ✓ | |
+| PowerShell | | | ✓ | |
+| Python | | ✓ | ✓ | ✓ | ✓
+| Ruby | | ✓ | ✓ | ✓ | ✓
+| Rust | | ✓ | ✓ | ✓ | ✓
+| Scala | | ✓| ✓ | |
+| Scheme | | ✓ | ✓ | |
+| Shell | | ✓ | ✓ | |
+| Swift | | ✓ | ✓ | ✓ |
+| Vala | | | ✓ | |
+| Zig | | ✓ | ✓ | |
 |===
