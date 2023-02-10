@@ -13,6 +13,7 @@
 | Fish | | ✓ | ✓ | | ✓
 | Fortran | | ✓ | ✓ | |
 | Go | | ✓ | ✓ | ✓ | ✓
+| Haskell | | | ✓ | |
 | Java | | ✓ | ✓ | ✓ | ✓
 | JavaScript | | ✓| ✓ | ✓ | ✓
 | Julia | | ✓ | ✓ | ✓ | ✓
