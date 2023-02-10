@@ -13,16 +13,16 @@
 | Fish | | ✓ | ✓ | |
 | Fortran | | ✓ | ✓ | |
 | Go | | ✓ | ✓ | ✓ | ✓
-| Java | | ✓ | ✓ | ✓ |
+| Java | | ✓ | ✓ | ✓ | ✓
 | JavaScript | | ✓| ✓ | ✓ |
 | Julia | | ✓ | ✓ | ✓ | ✓
-| Kotlin | | ✓ | ✓ | ✓ |
+| Kotlin | | ✓ | ✓ | ✓ | ✓
 | Lua | | ✓ | ✓ | |
 | M4 | | | ✓ | |
 | Nim | | ✓ | ✓ | ✓ | ✓
 | Nu | | | ✓ | |
 | Pascal | | ✓ | ✓ | |
-| Perl | | ✓ | ✓ | |
+| Perl | | ✓ | ✓ | | ✓
 | PHP | | | ✓ | |
 | PowerShell | | | ✓ | |
 | Python | | ✓ | ✓ | ✓ | ✓
