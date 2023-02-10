@@ -1,0 +1,1 @@
+string split "" "🍎 and 🍏"
