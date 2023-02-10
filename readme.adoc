@@ -26,6 +26,7 @@
 | PHP | | | ✓ | |
 | PowerShell | | | ✓ | |
 | Python | | ✓ | ✓ | ✓ | ✓
+| Racket | | | ✓ | |
 | Ruby | | ✓ | ✓ | ✓ | ✓
 | Rust | | ✓ | ✓ | ✓ | ✓
 | Scala | | ✓| ✓ | |
