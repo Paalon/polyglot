@@ -23,8 +23,8 @@
 | Nu | | | ✓ | |
 | Pascal | | ✓ | ✓ | |
 | Perl | | ✓ | ✓ | | ✓
-| PHP | | | ✓ | |
-| PowerShell | | | ✓ | |
+| PHP | | ✓ | ✓ | |
+| PowerShell | | ✓ | ✓ | |
 | Python | | ✓ | ✓ | ✓ | ✓
 | Racket | | ✓ | ✓ | | ✓
 | Ruby | | ✓ | ✓ | ✓ | ✓
