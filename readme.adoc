@@ -8,13 +8,13 @@
 | C# | | ✓ | ✓ | |
 | C++ | | ✓ | ✓ | ✓ |
 | C | | ✓ | ✓ | |
-| Crystal | | ✓ | ✓ | |
+| Crystal | | ✓ | ✓ | | ✓
 | D | | ✓ | ✓ | ✓ | ✓
-| Fish | | ✓ | ✓ | |
+| Fish | | ✓ | ✓ | | ✓
 | Fortran | | ✓ | ✓ | |
 | Go | | ✓ | ✓ | ✓ | ✓
 | Java | | ✓ | ✓ | ✓ | ✓
-| JavaScript | | ✓| ✓ | ✓ |
+| JavaScript | | ✓| ✓ | ✓ | ✓
 | Julia | | ✓ | ✓ | ✓ | ✓
 | Kotlin | | ✓ | ✓ | ✓ | ✓
 | Lua | | ✓ | ✓ | |
