@@ -6,6 +6,6 @@ configuration section.
 data division.
 working-storage section.
 procedure division.
-    display 'Hello!'.
+    display "Hello!".
     goback.
 end program hello.
