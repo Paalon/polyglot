@@ -7,7 +7,6 @@ procedure Struct is
       Name : Unbounded_String;
       Weight : Float;
    end record;
-   
    Some_Animal : Animal := (To_Unbounded_String ("Max"), 5.0);
 begin
    Put_Line (To_String (Some_Animal.Name));
