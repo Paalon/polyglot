@@ -1,2 +1,2 @@
-(format t "Hello!~%")
-(exit)
+(defun main ()
+  (write-line "Hello!"))
