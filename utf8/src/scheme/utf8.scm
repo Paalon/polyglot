@@ -2,12 +2,11 @@
   (scheme base)
   (scheme write))
 
-(define split-character (lambda (lst)
-  (if (eq? lst ())
-    ()
+(define display-items (lambda (lst)
+  (if (not (null? lst))
     (begin
       (display (car lst))
       (newline)
-      (split-character (cdr lst))))))
+      (display-items (cdr lst))))))
 
-(split-character (string->list "🍎 and 🍏"))
+(display-items (string->list "🍎 and 🍏"))
