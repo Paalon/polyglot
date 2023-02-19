@@ -5,13 +5,18 @@
 | Language | array | fizzbuzz | hello | struct | utf8
 
 | Ada | | ✓ | ✓ | ✓ |
-| C# | | ✓ | ✓ | |
+| C# | | ✓ | ✓ | | ✓
 | C++ | | ✓ | ✓ | ✓ | ✓
-| C | | ✓ | ✓ | | ✓
+| C | | ✓ | ✓ | ✓ | ✓
+| Clojure | | ✓ | ✓ | | 
+| COBOL | | | ✓ | |
+| Common Lisp | | ✓ | ✓ | | ✓
 | Crystal | | ✓ | ✓ | | ✓
 | D | | ✓ | ✓ | ✓ | ✓
+| Elixir | | ✓ | ✓ | | ✓
 | Erlang | | | ✓ | |
 | Fish | | ✓ | ✓ | | ✓
+// | Full BASIC | | | ✓ | |
 | Fortran | | ✓ | ✓ | |
 | Go | | ✓ | ✓ | ✓ | ✓
 | Haskell | | | ✓ | |
@@ -21,6 +26,7 @@
 | Kotlin | | ✓ | ✓ | ✓ | ✓
 | Lua | | ✓ | ✓ | | ✓
 | M4 | | | ✓ | |
+// | Minimal BASIC | | | ✓ | |
 | Nim | | ✓ | ✓ | ✓ | ✓
 | Nu | | | ✓ | |
 | OCaml | | ✓ | ✓ | |
@@ -33,7 +39,7 @@
 | Ruby | | ✓ | ✓ | ✓ | ✓
 | Rust | | ✓ | ✓ | ✓ | ✓
 | Scala | | ✓| ✓ | |
-| Scheme | | ✓ | ✓ | | ✓
+| Scheme | | ✓ | ✓ | ✓ | ✓
 | Shell | | ✓ | ✓ | |
 | Swift | | ✓ | ✓ | ✓ | ✓
 | Vala | | ✓ | ✓ | | ✓
