@@ -6,4 +6,4 @@ for n = 1 to 50 do
   else if n mod 5 == 0
     then Printf.printf "buzz\n"
   else Printf.printf "%d\n" n
-done;;
+done
