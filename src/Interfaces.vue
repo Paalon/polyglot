@@ -1,9 +1,21 @@
 <script setup lang="ts">
 import CodeBlock from "@/CodeBlock.vue";
 
+import codeCpp from "@/interfaces/main.cpp?raw";
+import codeGo from "@/interfaces/main.go?raw";
 import codeJulia from "@/interfaces/main.jl?raw";
 import codeRust from "@/interfaces/main.rs?raw";
 
+const codeBlockCpp = {
+	text: codeCpp,
+	language: "cpp",
+	title: "C++",
+};
+const codeBlockGo = {
+	text: codeGo,
+	language: "go",
+	title: "Go",
+};
 const codeBlockJulia = {
 	text: codeJulia,
 	language: "julia",
@@ -19,6 +31,14 @@ const codeBlockRust = {
 <template>
 	<section>
 		<h2>Interfaces</h2>
+		<section>
+			<h3>C++</h3>
+			<CodeBlock v-bind="codeBlockCpp"/>
+		</section>
+		<section>
+			<h3>Go</h3>
+			<CodeBlock v-bind="codeBlockGo"/>
+		</section>
 		<section>
 			<h3>Julia</h3>
 			<CodeBlock v-bind="codeBlockJulia"/>
