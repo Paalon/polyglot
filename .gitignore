@@ -5,7 +5,12 @@ package-lock.json
 # Visual Studio Code
 .vscode
 
+# C++, Go, Rust, Haskell, Nim
+main
+
 # Java
 *.class
 
-main
+# Haskell
+*.hi
+*.o
