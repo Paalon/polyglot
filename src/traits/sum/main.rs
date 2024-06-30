@@ -10,23 +10,11 @@ trait CanSwim {
     }
 }
 
-struct Butterfly {}
-impl CanFly for Butterfly {}
-
-struct Dolphin {}
-impl CanSwim for Dolphin {}
-
 struct Duck {}
 impl CanFly for Duck {}
 impl CanSwim for Duck {}
 
 fn main() {
-    let butterfly = Butterfly {};
-    butterfly.fly();
-
-    let dolphin = Dolphin {};
-    dolphin.swim();
-
     let duck = Duck {};
     duck.fly();
     duck.swim();
