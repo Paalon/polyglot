@@ -1,25 +1,25 @@
-trait CanF {
-    fn f1(&self) {
-        println!("CanF f1")
+trait CanFG {
+    fn f(&self) {
+        println!("CanFG f")
     }
-    fn f2(&self) {
-        println!("CanF f2")
+    fn g(&self) {
+        println!("CanFG g")
     }
 }
 
-trait CanF2 {
-    fn f2(&self) {
-        println!("CanF2 f2")
+trait CanF {
+    fn f(&self) {
+        println!("CanF f")
     }
 }
 
 struct A {}
+impl CanFG for A {}
 impl CanF for A {}
-impl CanF2 for A {}
 
 fn main() {
     let a = A {};
-    a.f1();
-    <A as CanF>::f2(&a);
-    <A as CanF2>::f2(&a);
+    <A as CanFG>::f(&a);
+    <A as CanF>::f(&a);
+    a.g();
 }

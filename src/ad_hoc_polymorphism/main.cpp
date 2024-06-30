@@ -2,13 +2,13 @@
 
 struct A {};
 
-auto const f(A const &) {
+auto f(A const &) {
     std::println("A");
 }
 
 struct B {};
 
-auto const f(B const &) {
+auto f(B const &) {
     std::println("B");
 }
 
