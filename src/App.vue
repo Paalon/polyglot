@@ -2,6 +2,7 @@
 import Greetings from "@/Greetings.vue";
 import Comments from "@/Comments.vue";
 import CompositeTypes from "@/CompositeTypes.vue";
+import EnumeratedTypes from "@/EnumeratedTypes.vue";
 import AdHocPolymorphism from "@/AdHocPolymorphism.vue";
 import ParametricPolymorphism from "@/ParametricPolymorphism.vue";
 import Traits from "@/Traits.vue";
@@ -14,6 +15,7 @@ import Interfaces from "@/Interfaces.vue";
 		<Greetings/>
 		<Comments/>
 		<CompositeTypes/>
+		<EnumeratedTypes/>
 		<AdHocPolymorphism/>
 		<ParametricPolymorphism/>
 		<Traits/>
