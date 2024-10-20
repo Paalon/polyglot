@@ -1,0 +1,32 @@
+.code-block {
+	border: 1px solid black;
+	padding: 1px;
+	margin: 1px;
+}
+
+.language {
+	font-weight: bold;
+	border: 1px solid lightgray;
+	padding: 0rem 1rem;
+	margin: 0rem;
+	border-radius: 0.5rem;
+}
+
+.caption {
+	border: 1px solid lightgray;
+	padding: 0rem 1rem;
+	margin: 0rem;
+	border-radius: 0.5rem;
+}
+
+.code {
+	border: 1px solid lightgray;
+	padding: 0rem 1rem;
+	margin: 0rem;
+	border-radius: 0.5rem;
+}
+
+.font-monospace {
+	font-family: "Cascadia Mono", monospace;
+	font-size: 12px;
+}
