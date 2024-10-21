@@ -1,0 +1,1 @@
+auto [a, b, c, d] = std::tuple{α, β, γ, δ};
