@@ -1,17 +1,30 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
+
+func fizzbuzzString(n int) string {
+	n3 := n%3 == 0
+	n5 := n%5 == 0
+	if n3 && n5 {
+		return "fizz buzz"
+	} else if n3 {
+		return "fizz"
+	} else if n5 {
+		return "buzz"
+	} else {
+		return strconv.Itoa(n)
+	}
+}
+
+func printFizzbuzz(n int, m int) {
+	for k := n; k <= m; k++ {
+		fmt.Println(fizzbuzzString(k))
+	}
+}
 
 func main() {
-	for n := 1; n <= 50; n++ {
-		if n%3 == 0 && n%5 == 0 {
-			fmt.Println("fizz buzz")
-		} else if n%3 == 0 {
-			fmt.Println("fizz")
-		} else if n%5 == 0 {
-			fmt.Println("buzz")
-		} else {
-			fmt.Println(n)
-		}
-	}
+	printFizzbuzz(1, 30)
 }
