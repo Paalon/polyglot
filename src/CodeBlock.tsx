@@ -12,7 +12,7 @@ export function CodeBlock({
 	code: string,
 }) {
 	/* eslint-disable @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call */
-	const highlightedCode = hljs.highlight(code, { language }).value as string;
+	const highlightedCode = hljs.highlight(code, { language }).value;
 	return <div className={styles.codeBlock}>
 		{caption !== undefined && <div className={styles.caption}>{caption}</div>}
 		<div className={styles.language}>{language}</div>
