@@ -13,72 +13,58 @@ import codeJulia from "./program/julia/Hello/src/Hello.jl?raw";
 import codeRust from "./program/rust/hello/src/main.rs?raw";
 
 export const Hello: Section = {
-    title: <>Hello: minimal meaningful program</>,
-    id: "hello",
-    children: [
-        {
-            title: <>Ada</>,
-            id: "ada",
-            content: <>
-                <CodeBlock language="Ada" code={codeAda}/>
-            </>,
-        },
-        {
-            title: <>APL</>,
-            id: "apl",
-            content: <CodeBlock language="APL" styleLanguage="Text" code={codeApl}/>,
-        },
-        {
-            title: <>C</>,
-            id: "c",
-            content: <>
-                <CodeBlock language="C" code={codeC}/>
-            </>,
-        },
-        {
-            title: <>C++</>,
-            id: "cplusplus",
-            content: <>
-                <CodeBlock language="C++" code={codeCplusplus}/>
-            </>,
-        },
-        {
-            title: <>C#</>,
-            id: "csharp",
-            content: <>
-                <CodeBlock language="C#" code={codeCsharp}/>
-            </>,
-        },
-        {
-            title: <>D</>,
-            id: "d",
-            content: <>
-                <CodeBlock language="D" code={codeD}/>
-            </>,
-        },
-        {
-            title: <>Go</>,
-            id: "go",
-            content: <>
-                <CodeBlock language="Go" code={codeGo}/>
-            </>,
-        },
-        {
-            title: <>J</>,
-            id: "j",
-            content: <CodeBlock language="J" styleLanguage="Text" code={codeJ}/>,
-        },
-        {
-            title: <>Julia</>,
-            id: "julia",
-            content: <CodeBlock language="Julia" code={codeJulia}/>
-        },
-        {
-            title: <>Rust</>,
-            id: "rust",
-            content: <>
-                <CodeBlock language="Rust" code={codeRust}/>
-            </>,
-        },
-    ],
+	title: <>Hello: minimal meaningful program</>,
+	id: "hello",
+	children: [
+		{
+			title: <>Ada</>,
+			id: "ada",
+			content: <CodeBlock language="Ada" code={codeAda}/>,
+		},
+		{
+			title: <>APL</>,
+			id: "apl",
+			content: <CodeBlock language="APL" styleLanguage="Text" code={codeApl}/>,
+		},
+		{
+			title: <>C</>,
+			id: "c",
+			content: <CodeBlock language="C" code={codeC}/>,
+		},
+		{
+			title: <>C++</>,
+			id: "cplusplus",
+			content: <CodeBlock language="C++" code={codeCplusplus}/>,
+		},
+		{
+			title: <>C#</>,
+			id: "csharp",
+			content: <CodeBlock language="C#" code={codeCsharp}/>,
+		},
+		{
+			title: <>D</>,
+			id: "d",
+			content: <CodeBlock language="D" code={codeD}/>,
+		},
+		{
+			title: <>Go</>,
+			id: "go",
+			content: <CodeBlock language="Go" code={codeGo}/>,
+		},
+		{
+			title: <>J</>,
+			id: "j",
+			content: <CodeBlock language="J" styleLanguage="Text" code={codeJ}/>,
+		},
+		{
+			title: <>Julia</>,
+			id: "julia",
+			content: <CodeBlock language="Julia" code={codeJulia}/>
+		},
+		{
+			title: <>Rust</>,
+			id: "rust",
+			content: <CodeBlock language="Rust" code={codeRust}/>,
+		},
+	],
 };
