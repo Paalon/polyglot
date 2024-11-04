@@ -1,0 +1,6 @@
+name = "Leibniz"
+uuid = "94dc8dd0-2c45-45e5-b7f4-15b6c99b93dd"
+version = "0.1.0"
+
+[compat]
+julia = "1.11"

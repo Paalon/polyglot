@@ -1,0 +1,6 @@
+name = "FizzBuzz"
+uuid = "5764f208-150c-40f6-a78a-4b10206bba39"
+version = "0.1.0"
+
+[compat]
+julia = "1.11"

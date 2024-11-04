@@ -1,0 +1,6 @@
+name = "Hello"
+uuid = "cfe1c864-b8ea-4d5d-9865-c65e03d696c8"
+version = "0.1.0"
+
+[compat]
+julia = "1.11"
