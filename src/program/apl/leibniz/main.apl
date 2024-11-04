@@ -1,0 +1,18 @@
+∇R←GETN A
+LOOP: →('--'≡↑A)/END
+A←1↓A
+→LOOP
+END: R←⍎2⊃A
+∇
+
+∇R←LEIBNIZ N;K
+R←0
+K←0
+LOOP: R←R+(1+2×-2∣K)÷1+K×2
+→(K=N)/END
+K←1+K
+→LOOP
+END: R←4×R
+∇
+
+⎕←LEIBNIZ GETN⎕ARG
