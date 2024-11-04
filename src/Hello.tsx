@@ -8,6 +8,7 @@ import codeCplusplus from "./program/cplusplus/hello/src/main.cpp?raw";
 import codeCsharp from "./program/csharp/hello/hello.cs?raw";
 import codeD from "./program/d/hello/hello.d?raw";
 import codeGo from "./program/go/hello/hello.go?raw";
+import codeJ from "./program/j/hello/main.ijs?raw";
 import codeJulia from "./program/julia/Hello/src/Hello.jl?raw";
 import codeRust from "./program/rust/hello/src/main.rs?raw";
 
@@ -61,6 +62,11 @@ export const Hello: Section = {
             content: <>
                 <CodeBlock language="Go" code={codeGo}/>
             </>,
+        },
+        {
+            title: <>J</>,
+            id: "j",
+            content: <CodeBlock language="J" styleLanguage="Text" code={codeJ}/>,
         },
         {
             title: <>Julia</>,
