@@ -1,15 +1,13 @@
-import Data.List (foldl')
 import System.Environment (getArgs)
 
-powersign 0 = 1
-powersign 1 = -1
-powersign n = powersign (n `mod` 2)
+powersign n = if n `rem` 2 == 0 then 1 else -1
 
-leibniz_term n = fromIntegral (powersign n) / fromIntegral (2 * n + 1)
-leibniz n = 4 * foldl' (+) 0 [leibniz_term k | k <- [0..n]]
+leibniz n = 4.0 * sum (map f [0..n])
+  where
+    f n = fromIntegral (powersign n) / fromIntegral (2 * n + 1)
 
 main = do
     args <- getArgs
     let str_n = args !! 0
     let n = read str_n :: Int
-    print (leibniz n)
+    print $ leibniz n
