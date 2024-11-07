@@ -2,14 +2,23 @@
   (scheme base)
   (scheme write))
 
-(do
-  ((n 1 (+ n 1)))
-  ((> n 50) ())
-  (begin
-    (display
-      (cond
-        ((and (= (modulo n 3) 0) (= (modulo n 5) 0)) "fizz buzz")
-        ((= (modulo n 3) 0) "fizz")
-        ((= (modulo n 5) 0) "buzz")
-        (else n)))
-    (newline)))
+(define (fizz-buzz-element-string n)
+  (let
+    (
+      (n3 (zero? (remainder n 3)))
+      (n5 (zero? (remainder n 5))))
+    (cond
+      ((and n3 n5) "fizz buzz")
+      (n3 "fizz")
+      (n5 "buzz")
+      (else (number->string n)))))
+
+(define (print-fizz-buzz n)
+  (do
+    ((k 1 (+ k 1)))
+    ((> k n))
+    (begin
+      (display (fizz-buzz-element-string k))
+      (newline))))
+
+(print-fizz-buzz 30)
