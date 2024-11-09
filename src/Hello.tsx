@@ -6,11 +6,13 @@ import codeApl from "./program/apl/hello/main.apl?raw";
 import codeC from "./program/c/hello/src/main.c?raw";
 import codeCplusplus from "./program/cplusplus/hello/src/main.cpp?raw";
 import codeCsharp from "./program/csharp/hello/hello.cs?raw";
-import codeD from "./program/d/hello/hello.d?raw";
+import codeD from "./program/d/hello/source/app.d?raw";
 import codeGo from "./program/go/hello/hello.go?raw";
+import codeHaskell from "./program/haskell/hello/hello.hs?raw";
 import codeJ from "./program/j/hello/main.ijs?raw";
 import codeJulia from "./program/julia/Hello/src/Hello.jl?raw";
 import codeRust from "./program/rust/hello/src/main.rs?raw";
+import codeScheme from "./program/scheme/hello/main.scm?raw";
 
 export const Hello: Section = {
 	title: <>Hello: minimal meaningful program</>,
@@ -52,6 +54,11 @@ export const Hello: Section = {
 			content: <CodeBlock language="Go" code={codeGo}/>,
 		},
 		{
+			title: <>Haskell</>,
+			id: "haskell",
+			content: <CodeBlock language="Haskell" code={codeHaskell}/>,
+		},
+		{
 			title: <>J</>,
 			id: "j",
 			content: <CodeBlock language="J" styleLanguage="Text" code={codeJ}/>,
@@ -65,6 +72,11 @@ export const Hello: Section = {
 			title: <>Rust</>,
 			id: "rust",
 			content: <CodeBlock language="Rust" code={codeRust}/>,
+		},
+		{
+			title: <>Scheme</>,
+			id: "scheme",
+			content: <CodeBlock language="Scheme" code={codeScheme}/>,
 		},
 	],
 };
