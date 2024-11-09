@@ -1,16 +1,23 @@
 module FizzBuzz
 
-function fizzbuzzstring(n::Integer)
-    n3 = n % 3 == 0
-    n5 = n % 5 == 0
-    n3 && n5 ? "fizz buzz" :
-    n3 ? "fizz" :
-    n5 ? "buzz" :
-    string(n)
+export main
+
+function fizzbuzzelementstring(n::T) where {T <: Integer}
+    n3 = iszero(n % T(3))
+    n5 = iszero(n % T(5))
+    if n3 && n5
+        "fizz buzz"
+    elseif n3
+        "fizz"
+    elseif n5
+        "buzz"
+    else
+        string(n)
+    end
 end
 
-const n = 30
+(printfizzbuzz(n::T) where {T <: Integer}) = foreach(println ∘ fizzbuzzelementstring, one(T):n)
 
-main() = foreach(println ∘ fizzbuzzstring, 1:n)
+(@main)(::Vector{String}) = printfizzbuzz(30)
 
 end # module FizzBuzz
