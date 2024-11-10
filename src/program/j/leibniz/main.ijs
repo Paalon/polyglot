@@ -16,8 +16,16 @@ leibniz =: 3 : 0
  4 * r
 )
 
+hexadecimal =: 3 : 0
+ cf8 =: 2 & (3!:5)
+ bytes =: a. i. cf8 y
+ , |. ((0,16) #: bytes) { '0123456789abcdef'
+)
+
 pps =: 9 !: 11
 pps 17
 
-echo leibniz ". > 2 { ARGV
+x =: leibniz ". > 2 { ARGV
+echo x
+echo hexadecimal x
 exit 0
