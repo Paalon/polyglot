@@ -1,0 +1,17 @@
+[project]
+name = "fizzbuzz"
+version = "0.1.0"
+description = "A fizz buzz program for Python"
+readme = "readme.md"
+authors = [
+    { name = "Koki Fushimi" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+fizzbuzz = "fizzbuzz:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

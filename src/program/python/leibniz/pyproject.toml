@@ -1,0 +1,17 @@
+[project]
+name = "leibniz"
+version = "0.1.0"
+description = "Calculate π from Leibniz series."
+readme = "readme.md"
+authors = [
+    { name = "Koki Fushimi" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+leibniz = "leibniz:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
