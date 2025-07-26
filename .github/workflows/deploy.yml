@@ -1,3 +1,6 @@
+# https://github.com/actions/starter-workflows/blob/main/pages/static.yml
+# https://pnpm.io/continuous-integration
+
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
